@@ -15,10 +15,8 @@ class MainController extends Controller
 
         $request->validate([
     		'img' => 'required',
-            'name' => 'required',
     	],[
     		'img.required' => 'يجب اختيار صورة',
-            'name.required' => 'يجب كتابة الإسم',
     	]);
 
         $session_token = Session::get('_token');

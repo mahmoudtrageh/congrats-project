@@ -91,9 +91,6 @@
                             <label for="exampleInputEmail1" class="form-label">اسم الشخص</label>
                             <input type="text" name="name" class="form-control" id="exampleInputEmail1"
                                 placeholder="اكتب اسم الشخص هنا">
-                            @error('name')
-                                <span class="text-danger">{{ $message }}</span>
-                            @enderror
                         </div>
 
                         <div class="mb-3">
