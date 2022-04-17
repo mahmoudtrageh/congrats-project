@@ -187,7 +187,7 @@
 
     <div class="card text-center footer w-100">
         <div class="card-footer text-muted">
-            جميع الحقوق محفوظة &copy; 2022
+            جميع الحقوق محفوظة &copy; 2022 <a href="{{url('/')}}">تهنئة</a>
         </div>
     </div>
 
